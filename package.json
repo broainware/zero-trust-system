@@ -1,0 +1,10 @@
+{
+  "name": "zero-trust-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistem Nilai dengan penerapan Zero Trust Security",
+  "main": "gateway/server.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
