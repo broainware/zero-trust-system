@@ -1,0 +1,264 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Zero Trust Security - Sistem Nilai",
+    "collectionId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+    "dateExported": "2026-10-31T15:46:32.067Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "20562935-1c61-4ab0-a020-88827994c2d6",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Login Mahasiswa",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2026-10-31T15:18:21.456Z",
+            "modified": "2026-10-31T15:18:21.456Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-MHS-001"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"username\": \"mhs1\",\r",
+                    "  \"password\": \"Mahasiswa123!\"\r",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "301dea19-c2c1-45a9-8810-942d08ca1ad2",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Login Dosen",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2026-10-31T15:19:04.352Z",
+            "modified": "2026-10-31T15:19:04.353Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-DOSEN-001"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"username\": \"dosen1\",\r",
+                    "  \"password\": \"Dosen123!\"\r",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "8f10f4a1-dfb6-4828-bff6-df30e437d7e8",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Login Admin",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2026-10-31T15:19:23.438Z",
+            "modified": "2026-10-31T15:19:23.438Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-ADMIN-001"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"username\": \"admin\",\r",
+                    "  \"password\": \"Admin123!\"\r",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "3d64c399-6272-4e32-bb63-83c42db9f872",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Mahasiswa Melihat Nilai",
+            "url": "http://localhost:3000/nilai",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2026-10-31T15:19:45.849Z",
+            "modified": "2026-10-31T15:19:45.849Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoibWFoYXNpc3dhIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwiaWF0IjoxNzkzNDYwOTcwLCJleHAiOjE3OTM0NjE1NzAsImlzcyI6Inplcm8tdHJ1c3Qtc3lzdGVtIiwic3ViIjoiNCJ9.kgNNlz3XpWsq3lWb1RehCuMVBDsvNwbZIfGv43jfZUA"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-MHS-001"
+                }
+            ]
+        },
+        {
+            "_id": "4e5e154e-2b53-4558-beb9-dc2c71e3c92b",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Mahasiswa Melihat Transkrip",
+            "url": "http://localhost:3000/transkrip/227006001",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2026-10-31T15:19:59.395Z",
+            "modified": "2026-10-31T15:19:59.395Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoibWFoYXNpc3dhIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwiaWF0IjoxNzkzNDYwOTcwLCJleHAiOjE3OTM0NjE1NzAsImlzcyI6Inplcm8tdHJ1c3Qtc3lzdGVtIiwic3ViIjoiNCJ9.kgNNlz3XpWsq3lWb1RehCuMVBDsvNwbZIfGv43jfZUA"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-MHS-001"
+                }
+            ]
+        },
+        {
+            "_id": "8ec03d06-fdcc-41d0-98c6-df4fce56848f",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Akses Transkrip Orang Lain",
+            "url": "http://localhost:3000/transkrip/227006002",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2026-10-31T15:20:11.795Z",
+            "modified": "2026-10-31T15:20:11.795Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoibWFoYXNpc3dhIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwiaWF0IjoxNzkzNDYwOTcwLCJleHAiOjE3OTM0NjE1NzAsImlzcyI6Inplcm8tdHJ1c3Qtc3lzdGVtIiwic3ViIjoiNCJ9.kgNNlz3XpWsq3lWb1RehCuMVBDsvNwbZIfGv43jfZUA"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-MHS-001"
+                }
+            ]
+        },
+        {
+            "_id": "4d8ee80a-a096-45a1-a7f8-f0c5dbf593b1",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "\tDosen Melihat Nilai",
+            "url": "http://localhost:3000/nilai",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2026-10-31T15:20:28.821Z",
+            "modified": "2026-10-31T15:20:28.821Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiZG9zZW4iLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJpYXQiOjE3OTM0NjExMzQsImV4cCI6MTc5MzQ2MTczNCwiaXNzIjoiemVyby10cnVzdC1zeXN0ZW0iLCJzdWIiOiIyIn0.q_d1_3jcxh6rWbW6NnPm6N7ObHSUVQkkjkNN_7nYeVE"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-DOSEN-001"
+                }
+            ]
+        },
+        {
+            "_id": "110e61d1-69eb-4d36-b905-7b7ef82b28a6",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Dosen Mengubah Nilai",
+            "url": "http://localhost:3000/nilai/1",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2026-10-31T15:20:45.382Z",
+            "modified": "2026-10-31T15:20:45.382Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiZG9zZW4iLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJpYXQiOjE3OTM0NjExMzQsImV4cCI6MTc5MzQ2MTczNCwiaXNzIjoiemVyby10cnVzdC1zeXN0ZW0iLCJzdWIiOiIyIn0.q_d1_3jcxh6rWbW6NnPm6N7ObHSUVQkkjkNN_7nYeVE"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-DOSEN-001"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"score\": 95\r",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "28b64533-d5fe-4039-bad7-68b60cfdfa03",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "\tDosen Finalisasi Nilai",
+            "url": "http://localhost:3000/kelas/1/finalisasi",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2026-10-31T15:21:00.945Z",
+            "modified": "2026-10-31T15:21:00.945Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiZG9zZW4iLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJpYXQiOjE3OTM0NjExMzQsImV4cCI6MTc5MzQ2MTczNCwiaXNzIjoiemVyby10cnVzdC1zeXN0ZW0iLCJzdWIiOiIyIn0.q_d1_3jcxh6rWbW6NnPm6N7ObHSUVQkkjkNN_7nYeVE"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-DOSEN-001"
+                }
+            ]
+        },
+        {
+            "_id": "cd4956e9-4289-4543-ae45-d533c5105b5d",
+            "colId": "935ee164-9a95-4fee-a8c8-41a12968c91e",
+            "containerId": "",
+            "name": "Admin Melihat Transkrip",
+            "url": "http://localhost:3000/transkrip/227006002",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2026-10-31T15:21:18.241Z",
+            "modified": "2026-10-31T15:21:18.241Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJpYXQiOjE3OTM0NjE1MjUsImV4cCI6MTc5MzQ2MjEyNSwiaXNzIjoiemVyby10cnVzdC1zeXN0ZW0iLCJzdWIiOiIxIn0.56BOinFjpQPOKbcE5V1GC5UwAWWBaLXINf9ek9PIFmo"
+                },
+                {
+                    "name": "X-Device-ID",
+                    "value": "DEV-ADMIN-001"
+                }
+            ]
+        }
+    ],
+    "ref": "0UFSrC_fk0xfdbl8xR-TyhnvIGVuHtnutik2hK3YM7a8l72ye6_qPdC7sK60cWZpaYd8M1nHuCwKQoGAsf18qA"
+}
